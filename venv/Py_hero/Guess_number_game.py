@@ -11,6 +11,7 @@ guess=1
 print('This is a random number game  guess any number ')
 
 while guess <=10:
+<<<<<<< HEAD
     try:
         user_num = int(input('Please enter your desired Number: '))
         if rand_num == user_num:
@@ -28,6 +29,22 @@ while guess <=10:
             break
     except:
         print("please enter valid input")
+=======
+    user_num = int(input('Please enter your desired Number: '))
+    if rand_num == user_num:
+        print(f'Congratulations You won {user_num} !!!!!!!')
+        break;
+    elif user_num > rand_num:
+        print(f'Your number {user_num} is  too high!')
+    elif user_num < rand_num:
+        print(f'Your number {user_num} is  too small!')
+
+    print(10-guess,"left")
+    guess= guess+1
+    if(guess>6):
+        print("Game is Over Try Again")
+        break
+>>>>>>> origin/master
 
 # 2nd example
 """
