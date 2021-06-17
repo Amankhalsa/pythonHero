@@ -5,6 +5,7 @@ name="john"
 product="I phone"
 price=1000
 # first method
+#you can use variable place of print
 print(" hi \""+name+"\" Thanks for buying this \""+product+"\" for \""+str(price)+"\"")
 #2nd method
 print("Hi \"{}\" you have purchase this \"{}\" with this amout \"{}\" ".format(name,product,price) )
