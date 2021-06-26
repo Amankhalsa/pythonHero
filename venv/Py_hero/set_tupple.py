@@ -12,4 +12,5 @@ test2={12, 52, 3, 4, 5}
 set_test = {'john', 'sally', 'gorege', 'ratan'}
 print(set_test)
 # test2.sort()
+print(5 in test2)
 print(55 in test2)
