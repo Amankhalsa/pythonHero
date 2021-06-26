@@ -1,3 +1,4 @@
+# tic tac game code
 import random
 
 game_input = ["Null", 'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X']
