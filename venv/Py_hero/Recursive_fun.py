@@ -7,7 +7,7 @@
 #
 # fun_name(2,3)
 
-
+#Rec Function by
 def table(num, i):
     result = num * i
 
