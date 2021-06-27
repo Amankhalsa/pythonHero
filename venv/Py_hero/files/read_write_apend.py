@@ -1,4 +1,5 @@
 # read
+# https://www.w3schools.com/python/python_file_handling.asp
 # file = open('Notes_para.txt', 'r')
 # write
 file = open('para.txt', 'w')
