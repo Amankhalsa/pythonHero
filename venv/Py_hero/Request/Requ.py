@@ -11,8 +11,10 @@ test = requests.get(url)
 
 info = test.json()
 
-print(info['rates'])
-
+# print(info.values())
+# print(info.values())
+for key,value in info.items():
+	print(key,"=", value)
 # url = 'https://www.youtube.com/'
 # test = requests.get(url)
 # info = test.content
