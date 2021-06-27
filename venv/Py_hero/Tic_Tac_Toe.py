@@ -78,8 +78,8 @@ while True:
 
     the_board = [' '] * 10
     player_1, player_2 = player_input()
-    print(player_1 + ' is playre_1 sign')
-    print(player_2 + ' is playre_2 sign')
+    print(player_1 + ' is playre_1 (AMAN) sign')
+    print(player_2 + ' is playre_2 (COMPUTER) sign')
 
     turn = chose_player()
     print(turn + ' will Play first')
