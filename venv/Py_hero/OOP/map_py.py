@@ -2,9 +2,9 @@ import random
 randomlist = []
 randomlist2 = []
 
-for i in range(0,10):
-    n = random.randint(1,30)
-    m=  random.randint(1,40)
+for i in range(0,20):
+    n = random.randint(1,20)
+    m=  random.randint(1,20)
     randomlist.append(n)
     randomlist2.append(m)
 
