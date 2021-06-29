@@ -8,11 +8,12 @@ exchage_api = data.json()
 rates = exchage_api['rates']
 print("indian",rates["INR"])
 
+indian=rates["INR"]
 # for key,value in rates.items():
 #  print(key,value)
 
-usr_amt = int(input('Manu Note Wakha Mera Mode banay: '))
-usr_cur = input('Oye Kera Mall haiga tery Kol: ').upper()
+usr_amt = int(input('Enter amount : '))
+usr_cur = input('Cur Type : ').upper()
 
 if usr_cur in rates.keys():
     # for key,value in rates.items():
@@ -21,9 +22,10 @@ if usr_cur in rates.keys():
     #     else:
     #         print(rates[f"{usr_cur}"])
     #         break
-
+    print("USD",rates[f'{usr_cur}'] )
     conv_cur = usr_amt * rates[f'{usr_cur}']
-    print(f'For {usr_amt} Euro you will get {conv_cur} {usr_cur}')
+
+    print(f'For {usr_amt}  you will get {conv_cur} {usr_cur} ')
 
 else:
     print(f'{usr_cur} Does not exist')
